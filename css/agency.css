@@ -18,12 +18,12 @@ body {
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.75;
 }
 
 p.large {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 a,
@@ -331,10 +331,10 @@ section h2.section-heading {
 }
 
 section h3.section-subheading {
-    margin-bottom: 75px;
+    margin-bottom: 50px;
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-style: italic;
     font-weight: 400;
 }
@@ -430,6 +430,7 @@ section h3.section-subheading {
 .timeline {
     position: relative;
     padding: 0;
+    margin-top: 50px;
     list-style: none;
 }
 
@@ -864,4 +865,29 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #fed136;
+}
+
+@media(min-width:400px) {
+    .icon-service {
+        max-width: 30%;
+        margin: 0 auto;
+    }
+}
+
+@media(min-width:992px) {
+    .icon-service {
+        max-width: 50%;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:992px) {
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+.service-border {
+    padding: 50px;
 }
