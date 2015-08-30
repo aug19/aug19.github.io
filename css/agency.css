@@ -891,3 +891,7 @@ body {
 .service-border {
     padding: 50px;
 }
+
+.thumbnail.contact {
+    padding: 50px;
+}
