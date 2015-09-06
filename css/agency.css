@@ -907,3 +907,10 @@ body {
     max-height: 250px;
     margin: 0 auto;
 }
+
+.coop-intro {
+    min-width: 100px !important;
+    min-height: 100px !important;
+    margin: auto !important;
+    margin-bottom: 50px !important;
+}
